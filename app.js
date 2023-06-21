@@ -120,7 +120,12 @@ const env = async() =>{
     app.get('/products/:pid', async (req, res) => {
         const productsId = Number(req.params.pid);
         const products = await productManager.getProductById(productsId);
-        res.send(products);
+
+        if(!products) {
+            res.status(500).send('Product Not Found');
+        } else {
+           res.send(products); 
+        }
     });
 
 
