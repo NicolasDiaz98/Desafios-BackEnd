@@ -1,1 +1,92 @@
-[]
+[
+	{
+		"title": "Guante Nike",
+		"description": "Guante de golero adulto Nike",
+		"price": 3000,
+		"thumbnail": "https://golero.com.mx/wp-content/uploads/2019/11/guantes-nike-mercurial-touch-victory-golerosport-0.jpg",
+		"code": "Nike01",
+		"stock": 20,
+		"id": 1
+	},
+	{
+		"title": "Guante Nike Negro",
+		"description": "Guante de golero adulto Nike",
+		"price": 3100,
+		"thumbnail": "https://golero.com.mx/wp-content/uploads/2019/11/guantes-nike-mercurial-touch-victory-golerosport-0.jpg",
+		"code": "Nike02",
+		"stock": 25,
+		"id": 2
+	},
+	{
+		"title": "Guante Nike Azul",
+		"description": "Guante de golero adulto Nike",
+		"price": 3200,
+		"thumbnail": "https://golero.com.mx/wp-content/uploads/2019/11/guantes-nike-mercurial-touch-victory-golerosport-0.jpg",
+		"code": "Nike03",
+		"stock": 28,
+		"id": 3
+	},
+	{
+		"title": "Guante Nike Rojo",
+		"description": "Guante de golero adulto Nike",
+		"price": 3600,
+		"thumbnail": "https://golero.com.mx/wp-content/uploads/2019/11/guantes-nike-mercurial-touch-victory-golerosport-0.jpg",
+		"code": "Nike04",
+		"stock": 19,
+		"id": 4
+	},
+	{
+		"title": "Guante Nike Verde",
+		"description": "Guante de golero adulto Nike",
+		"price": 3000,
+		"thumbnail": "https://golero.com.mx/wp-content/uploads/2019/11/guantes-nike-mercurial-touch-victory-golerosport-0.jpg",
+		"code": "Nike05",
+		"stock": 21,
+		"id": 5
+	},
+	{
+		"title": "Guante Nike Naranja",
+		"description": "Guante de golero adulto Nike",
+		"price": 3050,
+		"thumbnail": "https://golero.com.mx/wp-content/uploads/2019/11/guantes-nike-mercurial-touch-victory-golerosport-0.jpg",
+		"code": "Nike06",
+		"stock": 22,
+		"id": 6
+	},
+	{
+		"title": "Guante Nike Violeta",
+		"description": "Guante de golero adulto Nike",
+		"price": 3800,
+		"thumbnail": "https://golero.com.mx/wp-content/uploads/2019/11/guantes-nike-mercurial-touch-victory-golerosport-0.jpg",
+		"code": "Nike07",
+		"stock": 24,
+		"id": 7
+	},
+	{
+		"title": "Guante Nike Amarillo",
+		"description": "Guante de golero adulto Nike",
+		"price": 3080,
+		"thumbnail": "https://golero.com.mx/wp-content/uploads/2019/11/guantes-nike-mercurial-touch-victory-golerosport-0.jpg",
+		"code": "Nike08",
+		"stock": 26,
+		"id": 8
+	},
+	{
+		"title": "Guante Nike Gris",
+		"description": "Guante de golero adulto Nike",
+		"price": 2800,
+		"thumbnail": "https://golero.com.mx/wp-content/uploads/2019/11/guantes-nike-mercurial-touch-victory-golerosport-0.jpg",
+		"code": "Nike09",
+		"stock": 18,
+		"id": 9
+	},
+	{
+		"title": "Guante Nike Blanco",
+		"description": "Guante de golero adulto Nike",
+		"price": 3500,
+		"thumbnail": "https://golero.com.mx/wp-content/uploads/2019/11/guantes-nike-mercurial-touch-victory-golerosport-0.jpg",
+		"code": "Nike10",
+		"stock": 29,
+		"id": 10
+	}
+]

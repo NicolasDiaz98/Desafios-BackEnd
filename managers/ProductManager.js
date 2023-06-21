@@ -78,19 +78,20 @@ export default class ProductManager {
 
 // Método para obtener productos según su id generado en el archivo products.json dentro de la carpeta files 
 
-    getProductById = (idProduct) => {
-        const productIndex = this.products.findIndex(product => product.id === idProduct);
+     getProductById = async (idProduct) => {
 
-        if (productIndex === -1) {
-            console.log("Not found");
-            return;
+        try {
+            const productIndex = await this.products.find(product => product.id == idProduct);
+
+            if(productIndex === -1) {
+                console.log("Not found");
+                return;
+            } else {
+                return productIndex;
+            }
         }
-
-        const productAdd = () => this.products.includes(idProduct);
-
-        if(productAdd) {
-            console.log(`Producto agregado correctamente con el ID: ${idProduct}`);
-            return;
+        catch(error) {
+            console.error(error);
         }
     };
 
@@ -136,3 +137,4 @@ export default class ProductManager {
     };
 
 };
+
