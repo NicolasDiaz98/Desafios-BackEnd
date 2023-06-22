@@ -122,7 +122,7 @@ const env = async() =>{
         const products = await productManager.getProductById(productsId);
 
         if(!products) {
-            res.status(404).send('Product Not Found');
+            res.status(404).send({ status:'error', error:'Product Not Found'});
         } else {
            res.send(products); 
         }
